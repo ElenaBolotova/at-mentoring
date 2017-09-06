@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [FullSuitePO]">
+  <parameter name="password" value="Mentoring"/>
+  <parameter name="username" value="tuser5500@gmail.com"/>
+  <test name="GmailSelectDraftByKeys(failed)">
+    <classes>
+      <class name="com.epam.elena_bolotova.mentoring.task8.tests.SelectDraftTest">
+        <methods>
+          <include name="login"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="selectDraftTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.epam.elena_bolotova.mentoring.task8.tests.SelectDraftTest -->
+    </classes>
+  </test> <!-- GmailSelectDraftByKeys(failed) -->
+</suite> <!-- Failed suite [FullSuitePO] -->
