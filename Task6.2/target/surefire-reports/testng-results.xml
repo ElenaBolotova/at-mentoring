@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="14" passed="14">
+  <reporter-output>
+  </reporter-output>
+  <suite name="FullSuitePO" duration-ms="99973" started-at="2017-07-12T06:53:00Z" finished-at="2017-07-12T06:54:40Z">
+    <groups>
+      <group name="needLogin">
+        <method signature="SaveAndSendDraftTest.saveDraftTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.epam.elena_bolotova.mentoring.task6.pageobject.SaveAndSendDraftTest@14bef66]" name="saveDraftTest" class="com.epam.elena_bolotova.mentoring.task6.pageobject.SaveAndSendDraftTest"/>
+        <method signature="DeleteDraftTest.deleteDraftTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.epam.elena_bolotova.mentoring.task6.pageobject.DeleteDraftTest@1dd3bcd]" name="deleteDraftTest" class="com.epam.elena_bolotova.mentoring.task6.pageobject.DeleteDraftTest"/>
+      </group> <!-- needLogin -->
+    </groups>
+    <test name="GmailIncorrectLogin" duration-ms="24960" started-at="2017-07-12T06:53:00Z" finished-at="2017-07-12T06:53:25Z">
+      <class name="com.epam.elena_bolotova.mentoring.task6.pageobject.IncorrectLoginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.elena_bolotova.mentoring.task6.pageobject.IncorrectLoginTest@f9b8bc]" name="setUp" is-config="true" duration-ms="12576" started-at="2017-07-12T10:53:00Z" description="Start browser" finished-at="2017-07-12T10:53:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="incorrectLoginGmailTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.epam.elena_bolotova.mentoring.task6.pageobject.IncorrectLoginTest@f9b8bc]" name="incorrectLoginGmailTest" duration-ms="12141" started-at="2017-07-12T10:53:13Z" description="Login with incorrect password" data-provider="incorrectLoginDataProvider" finished-at="2017-07-12T10:53:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tuser5500@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[111]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Wrong password. Try again.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- incorrectLoginGmailTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.elena_bolotova.mentoring.task6.pageobject.IncorrectLoginTest@f9b8bc]" name="tearDown" is-config="true" duration-ms="216" started-at="2017-07-12T10:53:25Z" description="Close browser" finished-at="2017-07-12T10:53:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.epam.elena_bolotova.mentoring.task6.pageobject.IncorrectLoginTest -->
+    </test> <!-- GmailIncorrectLogin -->
+    <test name="GmailSaveAndSendDraft" duration-ms="45030" started-at="2017-07-12T06:53:25Z" finished-at="2017-07-12T06:54:10Z">
+      <class name="com.epam.elena_bolotova.mentoring.task6.pageobject.SaveAndSendDraftTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.elena_bolotova.mentoring.task6.pageobject.SaveAndSendDraftTest@14bef66]" name="setUp" is-config="true" duration-ms="7021" started-at="2017-07-12T10:53:25Z" description="Start browser" finished-at="2017-07-12T10:53:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.epam.elena_bolotova.mentoring.task6.pageobject.SaveAndSendDraftTest@14bef66]" name="login" is-config="true" duration-ms="7407" started-at="2017-07-12T10:53:32Z" finished-at="2017-07-12T10:53:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tuser5500@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mentoring]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="saveDraftTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.epam.elena_bolotova.mentoring.task6.pageobject.SaveAndSendDraftTest@14bef66]" name="saveDraftTest" duration-ms="9654" started-at="2017-07-12T10:53:40Z" description="Save draft message" data-provider="mailDataProvider" finished-at="2017-07-12T10:53:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[elena_bolotova@epam.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test email]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[This is my test email for hometask #5.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveDraftTest -->
+        <test-method status="PASS" signature="checkDraftInDraftsTest()[pri:0, instance:com.epam.elena_bolotova.mentoring.task6.pageobject.SaveAndSendDraftTest@14bef66]" name="checkDraftInDraftsTest" duration-ms="1568" started-at="2017-07-12T10:53:49Z" description="Check draft message in Drafts" depends-on-methods="com.epam.elena_bolotova.mentoring.task6.pageobject.SaveAndSendDraftTest.saveDraftTest" finished-at="2017-07-12T10:53:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDraftInDraftsTest -->
+        <test-method name="checkDraftContentTest" signature="checkDraftContentTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.epam.elena_bolotova.mentoring.task6.pageobject.SaveAndSendDraftTest@14bef66]" status="PASS" duration-ms="1899" finished-at="2017-07-12T10:53:53Z" started-at="2017-07-12T10:53:51Z" depends-on-methods="com.epam.elena_bolotova.mentoring.task6.pageobject.SaveAndSendDraftTest.checkDraftInDraftsTest" data-provider="mailDataProvider" description="Check draft message content">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[elena_bolotova@epam.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test email]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[This is my test email for hometask #5.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDraftContentTest -->
+        <test-method status="PASS" signature="sendDraftTest()[pri:0, instance:com.epam.elena_bolotova.mentoring.task6.pageobject.SaveAndSendDraftTest@14bef66]" name="sendDraftTest" duration-ms="11395" started-at="2017-07-12T10:53:53Z" description="Send draft message" depends-on-methods="com.epam.elena_bolotova.mentoring.task6.pageobject.SaveAndSendDraftTest.checkDraftContentTest" finished-at="2017-07-12T10:54:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendDraftTest -->
+        <test-method status="PASS" signature="checkDraftInSentMailTest()[pri:0, instance:com.epam.elena_bolotova.mentoring.task6.pageobject.SaveAndSendDraftTest@14bef66]" name="checkDraftInSentMailTest" duration-ms="5800" started-at="2017-07-12T10:54:04Z" description="Check draft message in Sent Mail" depends-on-methods="com.epam.elena_bolotova.mentoring.task6.pageobject.SaveAndSendDraftTest.sendDraftTest" finished-at="2017-07-12T10:54:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDraftInSentMailTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.elena_bolotova.mentoring.task6.pageobject.SaveAndSendDraftTest@14bef66]" name="tearDown" is-config="true" duration-ms="282" started-at="2017-07-12T10:54:10Z" description="Close browser" finished-at="2017-07-12T10:54:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.epam.elena_bolotova.mentoring.task6.pageobject.SaveAndSendDraftTest -->
+    </test> <!-- GmailSaveAndSendDraft -->
+    <test name="GmailDeleteDraft" duration-ms="29927" started-at="2017-07-12T06:54:10Z" finished-at="2017-07-12T06:54:40Z">
+      <class name="com.epam.elena_bolotova.mentoring.task6.pageobject.DeleteDraftTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.elena_bolotova.mentoring.task6.pageobject.DeleteDraftTest@1dd3bcd]" name="setUp" is-config="true" duration-ms="9140" started-at="2017-07-12T10:54:10Z" description="Start browser" finished-at="2017-07-12T10:54:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.epam.elena_bolotova.mentoring.task6.pageobject.DeleteDraftTest@1dd3bcd]" name="login" is-config="true" duration-ms="9219" started-at="2017-07-12T10:54:19Z" finished-at="2017-07-12T10:54:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tuser5500@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mentoring]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="deleteDraftTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.epam.elena_bolotova.mentoring.task6.pageobject.DeleteDraftTest@1dd3bcd]" name="deleteDraftTest" duration-ms="11396" started-at="2017-07-12T10:54:29Z" description="Create and delete draft message" data-provider="mailDataProvider" finished-at="2017-07-12T10:54:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[elena_bolotova@epam.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test email]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[This is my test email for hometask #5.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteDraftTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.elena_bolotova.mentoring.task6.pageobject.DeleteDraftTest@1dd3bcd]" name="tearDown" is-config="true" duration-ms="172" started-at="2017-07-12T10:54:40Z" description="Close browser" finished-at="2017-07-12T10:54:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.epam.elena_bolotova.mentoring.task6.pageobject.DeleteDraftTest -->
+    </test> <!-- GmailDeleteDraft -->
+  </suite> <!-- FullSuitePO -->
+  <suite name="FullSuitePF" duration-ms="87821" started-at="2017-07-12T06:54:40Z" finished-at="2017-07-12T06:56:08Z">
+    <groups>
+      <group name="needLogin">
+        <method signature="SaveAndSendDraftTest.saveDraftTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.epam.elena_bolotova.mentoring.task6.pagefactory.SaveAndSendDraftTest@e6e9c3]" name="saveDraftTest" class="com.epam.elena_bolotova.mentoring.task6.pagefactory.SaveAndSendDraftTest"/>
+        <method signature="DeleteDraftTest.deleteDraftTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.epam.elena_bolotova.mentoring.task6.pagefactory.DeleteDraftTest@a12c19]" name="deleteDraftTest" class="com.epam.elena_bolotova.mentoring.task6.pagefactory.DeleteDraftTest"/>
+      </group> <!-- needLogin -->
+    </groups>
+    <test name="GmailIncorrectLogin" duration-ms="17701" started-at="2017-07-12T06:54:40Z" finished-at="2017-07-12T06:54:58Z">
+      <class name="com.epam.elena_bolotova.mentoring.task6.pagefactory.IncorrectLoginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.elena_bolotova.mentoring.task6.pagefactory.IncorrectLoginTest@1a485d2]" name="setUp" is-config="true" duration-ms="7015" started-at="2017-07-12T10:54:40Z" description="Start browser" finished-at="2017-07-12T10:54:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="incorrectLoginGmailTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.epam.elena_bolotova.mentoring.task6.pagefactory.IncorrectLoginTest@1a485d2]" name="incorrectLoginGmailTest" duration-ms="10530" started-at="2017-07-12T10:54:47Z" description="Login with incorrect password" data-provider="incorrectLoginDataProvider" finished-at="2017-07-12T10:54:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tuser5500@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[111]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Wrong password. Try again.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- incorrectLoginGmailTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.elena_bolotova.mentoring.task6.pagefactory.IncorrectLoginTest@1a485d2]" name="tearDown" is-config="true" duration-ms="156" started-at="2017-07-12T10:54:58Z" description="Close browser" finished-at="2017-07-12T10:54:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.epam.elena_bolotova.mentoring.task6.pagefactory.IncorrectLoginTest -->
+    </test> <!-- GmailIncorrectLogin -->
+    <test name="GmailSaveAndSendDraft" duration-ms="46139" started-at="2017-07-12T06:54:58Z" finished-at="2017-07-12T06:55:44Z">
+      <class name="com.epam.elena_bolotova.mentoring.task6.pagefactory.SaveAndSendDraftTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.elena_bolotova.mentoring.task6.pagefactory.SaveAndSendDraftTest@e6e9c3]" name="setUp" is-config="true" duration-ms="7295" started-at="2017-07-12T10:54:58Z" description="Start browser" finished-at="2017-07-12T10:55:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.epam.elena_bolotova.mentoring.task6.pagefactory.SaveAndSendDraftTest@e6e9c3]" name="login" is-config="true" duration-ms="7017" started-at="2017-07-12T10:55:05Z" finished-at="2017-07-12T10:55:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tuser5500@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mentoring]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="saveDraftTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.epam.elena_bolotova.mentoring.task6.pagefactory.SaveAndSendDraftTest@e6e9c3]" name="saveDraftTest" duration-ms="9799" started-at="2017-07-12T10:55:12Z" description="Save draft message" data-provider="mailDataProvider" finished-at="2017-07-12T10:55:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[elena_bolotova@epam.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test email]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[This is my test email for hometask #5.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveDraftTest -->
+        <test-method status="PASS" signature="checkDraftInDraftsTest()[pri:0, instance:com.epam.elena_bolotova.mentoring.task6.pagefactory.SaveAndSendDraftTest@e6e9c3]" name="checkDraftInDraftsTest" duration-ms="1934" started-at="2017-07-12T10:55:22Z" description="Check draft message in Drafts" depends-on-methods="com.epam.elena_bolotova.mentoring.task6.pagefactory.SaveAndSendDraftTest.saveDraftTest" finished-at="2017-07-12T10:55:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDraftInDraftsTest -->
+        <test-method name="checkDraftContentTest" signature="checkDraftContentTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.epam.elena_bolotova.mentoring.task6.pagefactory.SaveAndSendDraftTest@e6e9c3]" status="PASS" duration-ms="1919" finished-at="2017-07-12T10:55:26Z" started-at="2017-07-12T10:55:24Z" depends-on-methods="com.epam.elena_bolotova.mentoring.task6.pagefactory.SaveAndSendDraftTest.checkDraftInDraftsTest" data-provider="mailDataProvider" description="Check draft message content">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[elena_bolotova@epam.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test email]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[This is my test email for hometask #5.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDraftContentTest -->
+        <test-method status="PASS" signature="sendDraftTest()[pri:0, instance:com.epam.elena_bolotova.mentoring.task6.pagefactory.SaveAndSendDraftTest@e6e9c3]" name="sendDraftTest" duration-ms="12137" started-at="2017-07-12T10:55:26Z" description="Send draft message" depends-on-methods="com.epam.elena_bolotova.mentoring.task6.pagefactory.SaveAndSendDraftTest.checkDraftContentTest" finished-at="2017-07-12T10:55:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendDraftTest -->
+        <test-method status="PASS" signature="checkDraftInSentMailTest()[pri:0, instance:com.epam.elena_bolotova.mentoring.task6.pagefactory.SaveAndSendDraftTest@e6e9c3]" name="checkDraftInSentMailTest" duration-ms="5826" started-at="2017-07-12T10:55:38Z" description="Check draft message in Sent Mail" depends-on-methods="com.epam.elena_bolotova.mentoring.task6.pagefactory.SaveAndSendDraftTest.sendDraftTest" finished-at="2017-07-12T10:55:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDraftInSentMailTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.elena_bolotova.mentoring.task6.pagefactory.SaveAndSendDraftTest@e6e9c3]" name="tearDown" is-config="true" duration-ms="206" started-at="2017-07-12T10:55:44Z" description="Close browser" finished-at="2017-07-12T10:55:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.epam.elena_bolotova.mentoring.task6.pagefactory.SaveAndSendDraftTest -->
+    </test> <!-- GmailSaveAndSendDraft -->
+    <test name="GmailDeleteDraft" duration-ms="23970" started-at="2017-07-12T06:55:44Z" finished-at="2017-07-12T06:56:08Z">
+      <class name="com.epam.elena_bolotova.mentoring.task6.pagefactory.DeleteDraftTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.elena_bolotova.mentoring.task6.pagefactory.DeleteDraftTest@a12c19]" name="setUp" is-config="true" duration-ms="7491" started-at="2017-07-12T10:55:44Z" description="Start browser" finished-at="2017-07-12T10:55:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.epam.elena_bolotova.mentoring.task6.pagefactory.DeleteDraftTest@a12c19]" name="login" is-config="true" duration-ms="7429" started-at="2017-07-12T10:55:52Z" finished-at="2017-07-12T10:55:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tuser5500@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mentoring]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="deleteDraftTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.epam.elena_bolotova.mentoring.task6.pagefactory.DeleteDraftTest@a12c19]" name="deleteDraftTest" duration-ms="8854" started-at="2017-07-12T10:55:59Z" description="Create and delete draft message" data-provider="mailDataProvider" finished-at="2017-07-12T10:56:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[elena_bolotova@epam.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test email]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[This is my test email for hometask #5.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteDraftTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.elena_bolotova.mentoring.task6.pagefactory.DeleteDraftTest@a12c19]" name="tearDown" is-config="true" duration-ms="196" started-at="2017-07-12T10:56:08Z" description="Close browser" finished-at="2017-07-12T10:56:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.epam.elena_bolotova.mentoring.task6.pagefactory.DeleteDraftTest -->
+    </test> <!-- GmailDeleteDraft -->
+  </suite> <!-- FullSuitePF -->
+</testng-results>

@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="FullSuitePO" verbose="1">
+    <parameter name="username" value="tuser5500@gmail.com"/>
+    <parameter name="password" value="Mentoring"/>
+
+    <test name="GmailIncorrectLogin">
+        <classes>
+            <class name="com.epam.elena_bolotova.mentoring.task6.pageobject.IncorrectLoginTest" />
+        </classes>
+
+    </test>
+    <test name="GmailSaveAndSendDraft">
+        <classes>
+            <class name="com.epam.elena_bolotova.mentoring.task6.pageobject.SaveAndSendDraftTest" />
+        </classes>
+    </test>
+
+    <test name="GmailDeleteDraft">
+        <classes>
+            <class name="com.epam.elena_bolotova.mentoring.task6.pageobject.DeleteDraftTest" />
+        </classes>
+
+    </test>
+</suite>

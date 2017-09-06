@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="FullSuitePO" verbose="1">
+    <parameter name="username" value="tuser5500@gmail.com"/>
+    <parameter name="password" value="Mentoring"/>
+
+    <test name="GmailSelectDraftByKeys">
+        <classes>
+            <class name="com.epam.elena_bolotova.mentoring.task6.pageobject.SelectDraftTest" />
+        </classes>
+
+    </test>
+    <test name="GmailDragAndDropDraft">
+        <classes>
+            <class name="com.epam.elena_bolotova.mentoring.task6.pageobject.DragAndDropDraftTest" />
+        </classes>
+    </test>
+
+</suite>

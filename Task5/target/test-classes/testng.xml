@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="FullSuite" verbose="1">
+    <test name="Gmail">
+        <classes>
+            <class name="com.epam.elena_bolotova.mentoring.task5.GmailTest" />
+        </classes>
+
+    </test>
+
+</suite>

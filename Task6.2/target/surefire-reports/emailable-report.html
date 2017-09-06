@@ -1,0 +1,152 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><th colspan="7">FullSuitePO</th></tr>
+<tr><td style="text-align:left;padding-right:2em">GmailIncorrectLogin</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">25,0 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">GmailSaveAndSendDraft</td><td class="numi">5</td><td class="numi">5</td><td class="numi">0</td><td class="numi">0</td><td class="numi">45,0 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">GmailDeleteDraft</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">29,9 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><th colspan="7">FullSuitePF</th></tr>
+<tr><td style="text-align:left;padding-right:2em">GmailIncorrectLogin</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">17,7 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">GmailSaveAndSendDraft</td><td class="numi">5</td><td class="numi">5</td><td class="numi">0</td><td class="numi">0</td><td class="numi">46,1 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">GmailDeleteDraft</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">24,0 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="total"><td>Total</td>
+<td class="numi">14</td><td class="numi">14</td><td class="numi">0</td><td class="numi">0</td><td class="numi">187,8 seconds</td><td colspan="2">&nbsp;</td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">FullSuitePO</th></tr>
+<tr><th colspan="4">GmailIncorrectLogin &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.epam.elena_bolotova.mentoring.task6.pageobject.IncorrectLoginTest</td><td><a href="#m1"><b>incorrectLoginGmailTest</b>  ("Login with incorrect password")</a></td><td class="numi">1</td><td>1499842393407</td><td class="numi">12141</td></tr>
+<tr><th colspan="4">GmailSaveAndSendDraft &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="5">com.epam.elena_bolotova.mentoring.task6.pageobject.SaveAndSendDraftTest</td><td><a href="#m2"><b>saveDraftTest</b> (needLogin) ("Save draft message")</a></td><td class="numi">1</td><td>1499842420243</td><td class="numi">9654</td></tr><tr class="passedodd"><td><a href="#m3"><b>checkDraftInDraftsTest</b>  ("Check draft message in Drafts")</a></td><td class="numi">1</td><td>1499842429898</td><td class="numi">1568</td></tr><tr class="passedodd"><td><a href="#m4"><b>checkDraftContentTest</b>  ("Check draft message content")</a></td><td class="numi">1</td><td>1499842431467</td><td class="numi">1899</td></tr><tr class="passedodd"><td><a href="#m5"><b>sendDraftTest</b>  ("Send draft message")</a></td><td class="numi">1</td><td>1499842433367</td><td class="numi">11395</td></tr><tr class="passedodd"><td><a href="#m6"><b>checkDraftInSentMailTest</b>  ("Check draft message in Sent Mail")</a></td><td class="numi">1</td><td>1499842444763</td><td class="numi">5800</td></tr>
+<tr><th colspan="4">GmailDeleteDraft &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.epam.elena_bolotova.mentoring.task6.pageobject.DeleteDraftTest</td><td><a href="#m7"><b>deleteDraftTest</b> (needLogin) ("Create and delete draft message")</a></td><td class="numi">1</td><td>1499842469212</td><td class="numi">11396</td></tr>
+<tr><th colspan="4">FullSuitePF</th></tr>
+<tr><th colspan="4">GmailIncorrectLogin &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.epam.elena_bolotova.mentoring.task6.pagefactory.IncorrectLoginTest</td><td><a href="#m8"><b>incorrectLoginGmailTest</b>  ("Login with incorrect password")</a></td><td class="numi">1</td><td>1499842487801</td><td class="numi">10530</td></tr>
+<tr><th colspan="4">GmailSaveAndSendDraft &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="5">com.epam.elena_bolotova.mentoring.task6.pagefactory.SaveAndSendDraftTest</td><td><a href="#m9"><b>saveDraftTest</b> (needLogin) ("Save draft message")</a></td><td class="numi">1</td><td>1499842512803</td><td class="numi">9799</td></tr><tr class="passedodd"><td><a href="#m10"><b>checkDraftInDraftsTest</b>  ("Check draft message in Drafts")</a></td><td class="numi">1</td><td>1499842522602</td><td class="numi">1934</td></tr><tr class="passedodd"><td><a href="#m11"><b>checkDraftContentTest</b>  ("Check draft message content")</a></td><td class="numi">1</td><td>1499842524539</td><td class="numi">1919</td></tr><tr class="passedodd"><td><a href="#m12"><b>sendDraftTest</b>  ("Send draft message")</a></td><td class="numi">1</td><td>1499842526459</td><td class="numi">12137</td></tr><tr class="passedodd"><td><a href="#m13"><b>checkDraftInSentMailTest</b>  ("Check draft message in Sent Mail")</a></td><td class="numi">1</td><td>1499842538597</td><td class="numi">5826</td></tr>
+<tr><th colspan="4">GmailDeleteDraft &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.epam.elena_bolotova.mentoring.task6.pagefactory.DeleteDraftTest</td><td><a href="#m14"><b>deleteDraftTest</b> (needLogin) ("Create and delete draft message")</a></td><td class="numi">1</td><td>1499842559557</td><td class="numi">8854</td></tr>
+</table>
+<h1>GmailIncorrectLogin</h1>
+<h2 id="m1">com.epam.elena_bolotova.mentoring.task6.pageobject.IncorrectLoginTest:incorrectLoginGmailTest</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>tuser5500@gmail.com</td>
+<td>111</td>
+<td>Wrong password. Try again.</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>GmailSaveAndSendDraft</h1>
+<h2 id="m2">com.epam.elena_bolotova.mentoring.task6.pageobject.SaveAndSendDraftTest:checkDraftInDraftsTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">com.epam.elena_bolotova.mentoring.task6.pageobject.SaveAndSendDraftTest:sendDraftTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">com.epam.elena_bolotova.mentoring.task6.pageobject.SaveAndSendDraftTest:checkDraftInSentMailTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">com.epam.elena_bolotova.mentoring.task6.pageobject.SaveAndSendDraftTest:saveDraftTest</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>elena_bolotova@epam.com</td>
+<td>Test email</td>
+<td>This is my test email for hometask #5.</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">com.epam.elena_bolotova.mentoring.task6.pageobject.SaveAndSendDraftTest:checkDraftContentTest</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>elena_bolotova@epam.com</td>
+<td>Test email</td>
+<td>This is my test email for hometask #5.</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>GmailDeleteDraft</h1>
+<h2 id="m7">com.epam.elena_bolotova.mentoring.task6.pageobject.DeleteDraftTest:deleteDraftTest</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>elena_bolotova@epam.com</td>
+<td>Test email</td>
+<td>This is my test email for hometask #5.</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>GmailIncorrectLogin</h1>
+<h2 id="m8">com.epam.elena_bolotova.mentoring.task6.pagefactory.IncorrectLoginTest:incorrectLoginGmailTest</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>tuser5500@gmail.com</td>
+<td>111</td>
+<td>Wrong password. Try again.</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>GmailSaveAndSendDraft</h1>
+<h2 id="m9">com.epam.elena_bolotova.mentoring.task6.pagefactory.SaveAndSendDraftTest:saveDraftTest</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>elena_bolotova@epam.com</td>
+<td>Test email</td>
+<td>This is my test email for hometask #5.</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">com.epam.elena_bolotova.mentoring.task6.pagefactory.SaveAndSendDraftTest:sendDraftTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">com.epam.elena_bolotova.mentoring.task6.pagefactory.SaveAndSendDraftTest:checkDraftContentTest</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>elena_bolotova@epam.com</td>
+<td>Test email</td>
+<td>This is my test email for hometask #5.</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">com.epam.elena_bolotova.mentoring.task6.pagefactory.SaveAndSendDraftTest:checkDraftInSentMailTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">com.epam.elena_bolotova.mentoring.task6.pagefactory.SaveAndSendDraftTest:checkDraftInDraftsTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>GmailDeleteDraft</h1>
+<h2 id="m14">com.epam.elena_bolotova.mentoring.task6.pagefactory.DeleteDraftTest:deleteDraftTest</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>elena_bolotova@epam.com</td>
+<td>Test email</td>
+<td>This is my test email for hometask #5.</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

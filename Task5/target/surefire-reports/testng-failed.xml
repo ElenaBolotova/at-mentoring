@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [FullSuite]">
+  <test name="Gmail(failed)">
+    <classes>
+      <class name="com.epam.elena_bolotova.mentoring.task5.GmailTest">
+        <methods>
+          <include name="sendDraft"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.epam.elena_bolotova.mentoring.task5.GmailTest -->
+    </classes>
+  </test> <!-- Gmail(failed) -->
+</suite> <!-- Failed suite [FullSuite] -->

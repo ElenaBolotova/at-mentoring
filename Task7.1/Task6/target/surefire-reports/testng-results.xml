@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="FullSuitePO" duration-ms="60541" started-at="2017-07-20T19:51:03Z" finished-at="2017-07-20T19:52:04Z">
+    <groups>
+      <group name="needLogin">
+        <method signature="SelectDraftTest.selectDraftTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.epam.elena_bolotova.mentoring.task6.pageobject.SelectDraftTest@43840]" name="selectDraftTest" class="com.epam.elena_bolotova.mentoring.task6.pageobject.SelectDraftTest"/>
+        <method signature="DragAndDropDraftTest.dragAndDropDraft(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.epam.elena_bolotova.mentoring.task6.pageobject.DragAndDropDraftTest@9f9fb0]" name="dragAndDropDraft" class="com.epam.elena_bolotova.mentoring.task6.pageobject.DragAndDropDraftTest"/>
+      </group> <!-- needLogin -->
+    </groups>
+    <test name="GmailSelectDraftByKeys" duration-ms="31724" started-at="2017-07-20T19:51:03Z" finished-at="2017-07-20T19:51:35Z">
+      <class name="com.epam.elena_bolotova.mentoring.task6.pageobject.SelectDraftTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.elena_bolotova.mentoring.task6.pageobject.SelectDraftTest@43840]" name="setUp" is-config="true" duration-ms="10120" started-at="2017-07-20T23:51:03Z" description="Start browser" finished-at="2017-07-20T23:51:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.epam.elena_bolotova.mentoring.task6.pageobject.SelectDraftTest@43840]" name="login" is-config="true" duration-ms="8516" started-at="2017-07-20T23:51:13Z" finished-at="2017-07-20T23:51:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tuser5500@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mentoring]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="selectDraftTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.epam.elena_bolotova.mentoring.task6.pageobject.SelectDraftTest@43840]" name="selectDraftTest" duration-ms="12885" started-at="2017-07-20T23:51:22Z" description="Select draft message" data-provider="mailDataProvider" finished-at="2017-07-20T23:51:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[elena_bolotova@epam.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test email]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[This is my test email for hometask #5.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectDraftTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.elena_bolotova.mentoring.task6.pageobject.SelectDraftTest@43840]" name="tearDown" is-config="true" duration-ms="180" started-at="2017-07-20T23:51:35Z" description="Close browser" finished-at="2017-07-20T23:51:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.epam.elena_bolotova.mentoring.task6.pageobject.SelectDraftTest -->
+    </test> <!-- GmailSelectDraftByKeys -->
+    <test name="GmailDragAndDropDraft" duration-ms="28788" started-at="2017-07-20T19:51:35Z" finished-at="2017-07-20T19:52:04Z">
+      <class name="com.epam.elena_bolotova.mentoring.task6.pageobject.DragAndDropDraftTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.elena_bolotova.mentoring.task6.pageobject.DragAndDropDraftTest@9f9fb0]" name="setUp" is-config="true" duration-ms="7415" started-at="2017-07-20T23:51:35Z" description="Start browser" finished-at="2017-07-20T23:51:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.epam.elena_bolotova.mentoring.task6.pageobject.DragAndDropDraftTest@9f9fb0]" name="login" is-config="true" duration-ms="7585" started-at="2017-07-20T23:51:42Z" finished-at="2017-07-20T23:51:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tuser5500@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mentoring]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="dragAndDropDraft(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.epam.elena_bolotova.mentoring.task6.pageobject.DragAndDropDraftTest@9f9fb0]" name="dragAndDropDraft" duration-ms="13576" started-at="2017-07-20T23:51:50Z" description="Drag and drop draft message from Drafts to Inbox" data-provider="mailDataProvider" finished-at="2017-07-20T23:52:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[elena_bolotova@epam.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test email]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[This is my test email for hometask #5.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dragAndDropDraft -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.elena_bolotova.mentoring.task6.pageobject.DragAndDropDraftTest@9f9fb0]" name="tearDown" is-config="true" duration-ms="209" started-at="2017-07-20T23:52:03Z" description="Close browser" finished-at="2017-07-20T23:52:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.epam.elena_bolotova.mentoring.task6.pageobject.DragAndDropDraftTest -->
+    </test> <!-- GmailDragAndDropDraft -->
+  </suite> <!-- FullSuitePO -->
+</testng-results>
