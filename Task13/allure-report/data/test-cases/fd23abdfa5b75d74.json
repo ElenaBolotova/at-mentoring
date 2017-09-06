@@ -1,0 +1,411 @@
+{
+  "uid" : "fd23abdfa5b75d74",
+  "name" : "Select draft message",
+  "fullName" : "com.epam.elena_bolotova.mentoring.task6.pageobject.SelectDraftTest.selectDraftTest",
+  "historyId" : "bc52992e9d3b3e570f523dc88d64266e",
+  "time" : {
+    "start" : 1504444727846,
+    "stop" : 1504444739886,
+    "duration" : 12040
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : true
+  },
+  "beforeStages" : [ {
+    "name" : "Start browser",
+    "time" : {
+      "start" : 1504444713762,
+      "stop" : 1504444719869,
+      "duration" : 6107
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "Close browser",
+    "time" : {
+      "start" : 1504444740028,
+      "stop" : 1504444740540,
+      "duration" : 512
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "Check test result",
+    "time" : {
+      "start" : 1504444740007,
+      "stop" : 1504444740007,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.epam.elena_bolotova.mentoring.task6.pageobject.SelectDraftTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.epam.elena_bolotova.mentoring.task6.pageobject.SelectDraftTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "selectDraftTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "task13"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.epam.elena_bolotova.mentoring.task6.pageobject.SelectDraftTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OV84OKC"
+  }, {
+    "name" : "thread",
+    "value" : "21832@DESKTOP-OV84OKC.main(1)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "elena_bolotova@epam.com"
+  }, {
+    "name" : "arg1",
+    "value" : "Test email"
+  }, {
+    "name" : "arg2",
+    "value" : "This is my test email for hometask #5."
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7e410432d1891efc",
+      "status" : "broken",
+      "statusDetails" : "The element reference of <a class=\"J-Ke n0\"> stale: either the element is no longer attached to the DOM or the page has been refreshed\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '3.4.0', revision: 'unknown', time: 'unknown'\nSystem info: host: 'DESKTOP-OV84OKC', ip: '192.168.1.39', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{moz:profile=C:\\Users\\Elena\\AppData\\Local\\Temp\\rust_mozprofile.vJkrr8wRidoX, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=55.0.3, platformVersion=10.0, moz:processID=10132.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]\nSession ID: 3758f577-fb94-4c89-8bc6-c82ec92af5c5",
+      "time" : {
+        "start" : 1504444678503,
+        "stop" : 1504444682167,
+        "duration" : 3664
+      }
+    }, {
+      "uid" : "8f64ae9c2d1a8d47",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504444600525,
+        "stop" : 1504444610176,
+        "duration" : 9651
+      }
+    }, {
+      "uid" : "ff50eef015a2b9c8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504444463120,
+        "stop" : 1504444478571,
+        "duration" : 15451
+      }
+    }, {
+      "uid" : "a8db3aaa5fd1ae7b",
+      "status" : "broken",
+      "statusDetails" : "The element reference of <a class=\"J-Ke n0\"> stale: either the element is no longer attached to the DOM or the page has been refreshed\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '3.4.0', revision: 'unknown', time: 'unknown'\nSystem info: host: 'DESKTOP-OV84OKC', ip: '192.168.1.39', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{moz:profile=C:\\Users\\Elena\\AppData\\Local\\Temp\\rust_mozprofile.sZlnBasbsAkH, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=55.0.3, platformVersion=10.0, moz:processID=16936.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]\nSession ID: d4a6e148-b2e1-4b46-8d64-ac953b874652",
+      "time" : {
+        "start" : 1504444428465,
+        "stop" : 1504444432309,
+        "duration" : 3844
+      }
+    }, {
+      "uid" : "3e7df267f708c3d1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504444360144,
+        "stop" : 1504444375887,
+        "duration" : 15743
+      }
+    }, {
+      "uid" : "b45a4a8befc973dc",
+      "status" : "broken",
+      "statusDetails" : "The element reference of <a class=\"J-Ke n0\"> stale: either the element is no longer attached to the DOM or the page has been refreshed\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '3.4.0', revision: 'unknown', time: 'unknown'\nSystem info: host: 'DESKTOP-OV84OKC', ip: '192.168.1.39', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{moz:profile=C:\\Users\\Elena\\AppData\\Local\\Temp\\rust_mozprofile.WTCkexCu1BYj, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=55.0.3, platformVersion=10.0, moz:processID=22464.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]\nSession ID: b7a187f8-a2ea-417c-9a85-0f17fafb2c96",
+      "time" : {
+        "start" : 1504444265416,
+        "stop" : 1504444269639,
+        "duration" : 4223
+      }
+    }, {
+      "uid" : "7dc13b559eed48a4",
+      "status" : "broken",
+      "statusDetails" : "The element reference of <a class=\"J-Ke n0\"> stale: either the element is no longer attached to the DOM or the page has been refreshed\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '3.4.0', revision: 'unknown', time: 'unknown'\nSystem info: host: 'DESKTOP-OV84OKC', ip: '192.168.1.39', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{moz:profile=C:\\Users\\Elena\\AppData\\Local\\Temp\\rust_mozprofile.5Dm6zSxIGsGM, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=55.0.3, platformVersion=10.0, moz:processID=18380.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]\nSession ID: 3c6973f1-0479-4f31-aabe-27dee1f511eb",
+      "time" : {
+        "start" : 1504444238963,
+        "stop" : 1504444242739,
+        "duration" : 3776
+      }
+    }, {
+      "uid" : "60ae97ae9a4a3631",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504444184166,
+        "stop" : 1504444197278,
+        "duration" : 13112
+      }
+    }, {
+      "uid" : "b75adaa2f333e288",
+      "status" : "broken",
+      "statusDetails" : "The element reference of <a class=\"J-Ke n0\"> stale: either the element is no longer attached to the DOM or the page has been refreshed\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '3.4.0', revision: 'unknown', time: 'unknown'\nSystem info: host: 'DESKTOP-OV84OKC', ip: '192.168.1.39', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{moz:profile=C:\\Users\\Elena\\AppData\\Local\\Temp\\rust_mozprofile.MXpJmNkbNqX0, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=55.0.3, platformVersion=10.0, moz:processID=21040.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]\nSession ID: 87e30ed4-9dd4-41b0-beba-70a3f8282f44",
+      "time" : {
+        "start" : 1504444157755,
+        "stop" : 1504444162135,
+        "duration" : 4380
+      }
+    }, {
+      "uid" : "83a488311396a896",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504444084609,
+        "stop" : 1504444104908,
+        "duration" : 20299
+      }
+    }, {
+      "uid" : "eb585b5fe9b08db4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504444027909,
+        "stop" : 1504444039811,
+        "duration" : 11902
+      }
+    }, {
+      "uid" : "d6c82acc109b6322",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for presence of any elements located by By.cssSelector: div[aria-label='Message Body'] (tried for 20 second(s) with 500 MILLISECONDS interval)\nBuild info: version: '3.4.0', revision: 'unknown', time: 'unknown'\nSystem info: host: 'DESKTOP-OV84OKC', ip: '192.168.1.39', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'\nDriver info: com.epam.elena_bolotova.mentoring.task6.pageobject.driver.DriverDecorator",
+      "time" : {
+        "start" : 1504443920638,
+        "stop" : 1504443946796,
+        "duration" : 26158
+      }
+    }, {
+      "uid" : "bd4e108e98e53dfc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504443831648,
+        "stop" : 1504443844028,
+        "duration" : 12380
+      }
+    }, {
+      "uid" : "cfd55105c126623d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504443771195,
+        "stop" : 1504443787862,
+        "duration" : 16667
+      }
+    }, {
+      "uid" : "6288147b3cbae00b",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for presence of any elements located by By.cssSelector: div[aria-label='Message Body'] (tried for 20 second(s) with 500 MILLISECONDS interval)\nBuild info: version: '3.4.0', revision: 'unknown', time: 'unknown'\nSystem info: host: 'DESKTOP-OV84OKC', ip: '192.168.1.39', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'\nDriver info: com.epam.elena_bolotova.mentoring.task6.pageobject.driver.DriverDecorator",
+      "time" : {
+        "start" : 1504443683286,
+        "stop" : 1504443709746,
+        "duration" : 26460
+      }
+    }, {
+      "uid" : "667b7aae19f69b7c",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for presence of any elements located by By.cssSelector: div[aria-label='Message Body'] (tried for 20 second(s) with 500 MILLISECONDS interval)\nBuild info: version: '3.4.0', revision: 'unknown', time: 'unknown'\nSystem info: host: 'DESKTOP-OV84OKC', ip: '192.168.1.39', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'\nDriver info: com.epam.elena_bolotova.mentoring.task6.pageobject.driver.DriverDecorator",
+      "time" : {
+        "start" : 1504443613452,
+        "stop" : 1504443639178,
+        "duration" : 25726
+      }
+    }, {
+      "uid" : "f0def68855d600e",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for presence of any elements located by By.cssSelector: div[aria-label='Message Body'] (tried for 20 second(s) with 500 MILLISECONDS interval)\nBuild info: version: '3.4.0', revision: 'unknown', time: 'unknown'\nSystem info: host: 'DESKTOP-OV84OKC', ip: '192.168.1.39', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'\nDriver info: com.epam.elena_bolotova.mentoring.task6.pageobject.driver.DriverDecorator",
+      "time" : {
+        "start" : 1504443539580,
+        "stop" : 1504443568123,
+        "duration" : 28543
+      }
+    }, {
+      "uid" : "844318a0c45d2b06",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for presence of any elements located by By.cssSelector: div[aria-label='Message Body'] (tried for 20 second(s) with 500 MILLISECONDS interval)\nBuild info: version: '3.4.0', revision: 'unknown', time: 'unknown'\nSystem info: host: 'DESKTOP-OV84OKC', ip: '192.168.1.39', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'\nDriver info: com.epam.elena_bolotova.mentoring.task6.pageobject.driver.DriverDecorator",
+      "time" : {
+        "start" : 1504443473295,
+        "stop" : 1504443498504,
+        "duration" : 25209
+      }
+    }, {
+      "uid" : "8836f6384691909c",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for presence of any elements located by By.cssSelector: div[aria-label='Message Body'] (tried for 20 second(s) with 500 MILLISECONDS interval)\nBuild info: version: '3.4.0', revision: 'unknown', time: 'unknown'\nSystem info: host: 'DESKTOP-OV84OKC', ip: '192.168.1.39', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'\nDriver info: com.epam.elena_bolotova.mentoring.task6.pageobject.driver.DriverDecorator",
+      "time" : {
+        "start" : 1504443237993,
+        "stop" : 1504443263453,
+        "duration" : 25460
+      }
+    }, {
+      "uid" : "2d540e2d84b9b0f2",
+      "status" : "broken",
+      "statusDetails" : "The element reference of <a class=\"J-Ke n0\"> stale: either the element is no longer attached to the DOM or the page has been refreshed\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '3.4.0', revision: 'unknown', time: 'unknown'\nSystem info: host: 'DESKTOP-OV84OKC', ip: '192.168.1.39', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{moz:profile=C:\\Users\\Elena\\AppData\\Local\\Temp\\rust_mozprofile.n9Xp82Pmc4m4, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=55.0.3, platformVersion=10.0, moz:processID=8904.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]\nSession ID: a57c0412-9ae0-4750-a968-bac62744afe4",
+      "time" : {
+        "start" : 1504443146448,
+        "stop" : 1504443149812,
+        "duration" : 3364
+      }
+    }, {
+      "uid" : "675b54491746a8f",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for presence of any elements located by By.cssSelector: div[aria-label='Message Body'] (tried for 20 second(s) with 500 MILLISECONDS interval)\nBuild info: version: '3.4.0', revision: 'unknown', time: 'unknown'\nSystem info: host: 'DESKTOP-OV84OKC', ip: '192.168.1.39', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'\nDriver info: com.epam.elena_bolotova.mentoring.task6.pageobject.driver.DriverDecorator",
+      "time" : {
+        "start" : 1504443054994,
+        "stop" : 1504443079503,
+        "duration" : 24509
+      }
+    }, {
+      "uid" : "d474f322fc2d1546",
+      "status" : "broken",
+      "statusDetails" : "The element reference of <a class=\"J-Ke n0\"> stale: either the element is no longer attached to the DOM or the page has been refreshed\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '3.4.0', revision: 'unknown', time: 'unknown'\nSystem info: host: 'DESKTOP-OV84OKC', ip: '192.168.1.39', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{moz:profile=C:\\Users\\Elena\\AppData\\Local\\Temp\\rust_mozprofile.6Pc2pXr5CChD, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=55.0.3, platformVersion=10.0, moz:processID=17064.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]\nSession ID: b791ce0f-974e-48c2-98a1-0cfc7aa924c4",
+      "time" : {
+        "start" : 1504442853275,
+        "stop" : 1504442856042,
+        "duration" : 2767
+      }
+    }, {
+      "uid" : "4a2ce0be8672457c",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for presence of any elements located by By.cssSelector: div[aria-label='Message Body'] (tried for 20 second(s) with 500 MILLISECONDS interval)\nBuild info: version: '3.4.0', revision: 'unknown', time: 'unknown'\nSystem info: host: 'DESKTOP-OV84OKC', ip: '192.168.1.39', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'\nDriver info: com.epam.elena_bolotova.mentoring.task6.pageobject.driver.DriverDecorator",
+      "time" : {
+        "start" : 1504442774452,
+        "stop" : 1504442799649,
+        "duration" : 25197
+      }
+    }, {
+      "uid" : "291dbfb8df753dc6",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for presence of any elements located by By.cssSelector: div[aria-label='Message Body'] (tried for 20 second(s) with 500 MILLISECONDS interval)\nBuild info: version: '3.4.0', revision: 'unknown', time: 'unknown'\nSystem info: host: 'DESKTOP-OV84OKC', ip: '192.168.1.39', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'\nDriver info: com.epam.elena_bolotova.mentoring.task6.pageobject.driver.DriverDecorator",
+      "time" : {
+        "start" : 1504442690242,
+        "stop" : 1504442715361,
+        "duration" : 25119
+      }
+    }, {
+      "uid" : "d0007c714b66a387",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for presence of any elements located by By.cssSelector: div[aria-label='Message Body'] (tried for 20 second(s) with 500 MILLISECONDS interval)\nBuild info: version: '3.4.0', revision: 'unknown', time: 'unknown'\nSystem info: host: 'DESKTOP-OV84OKC', ip: '192.168.1.39', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'\nDriver info: com.epam.elena_bolotova.mentoring.task6.pageobject.driver.DriverDecorator",
+      "time" : {
+        "start" : 1504442434178,
+        "stop" : 1504442459444,
+        "duration" : 25266
+      }
+    }, {
+      "uid" : "d65ef611cd152d20",
+      "status" : "broken",
+      "statusDetails" : "Element is not visible\nBuild info: version: '3.4.0', revision: 'unknown', time: 'unknown'\nSystem info: host: 'DESKTOP-OV84OKC', ip: '192.168.1.39', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{moz:profile=C:\\Users\\Elena\\AppData\\Local\\Temp\\rust_mozprofile.9aZig9oo7Rvj, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=55.0.3, platformVersion=10.0, moz:processID=11560.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]\nSession ID: b78bfcbf-6694-4b6a-a089-7a3ae173cd79",
+      "time" : {
+        "start" : 1504442336916,
+        "stop" : 1504442340086,
+        "duration" : 3170
+      }
+    }, {
+      "uid" : "5948a3bd02fc3409",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1504441815991,
+        "stop" : 1504441815995,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "24d28aedebe8c7c1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504440740993,
+        "stop" : 1504440745401,
+        "duration" : 4408
+      }
+    }, {
+      "uid" : "f9f6752894f1597e",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for presence of any elements located by By.cssSelector: div[aria-label='Message Body'] (tried for 20 second(s) with 500 MILLISECONDS interval)\nBuild info: version: '3.4.0', revision: 'unknown', time: 'unknown'\nSystem info: host: 'DESKTOP-OV84OKC', ip: '192.168.1.39', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'\nDriver info: com.epam.elena_bolotova.mentoring.task6.pageobject.driver.DriverDecorator",
+      "time" : {
+        "start" : 1504440658168,
+        "stop" : 1504440683429,
+        "duration" : 25261
+      }
+    }, {
+      "uid" : "ca1045cfc20e447f",
+      "status" : "broken",
+      "statusDetails" : "The element reference of <a class=\"J-Ke n0\"> stale: either the element is no longer attached to the DOM or the page has been refreshed\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '3.4.0', revision: 'unknown', time: 'unknown'\nSystem info: host: 'DESKTOP-OV84OKC', ip: '192.168.1.39', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{moz:profile=C:\\Users\\Elena\\AppData\\Local\\Temp\\rust_mozprofile.nuMJWwpe6ACL, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=55.0.3, platformVersion=10.0, moz:processID=5868.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]\nSession ID: 69a2d0fa-ac23-4954-bf11-ff02c4219d92",
+      "time" : {
+        "start" : 1504440567044,
+        "stop" : 1504440571851,
+        "duration" : 4807
+      }
+    }, {
+      "uid" : "271bc20459898d78",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for presence of any elements located by By.cssSelector: div[aria-label='Message Body'] (tried for 20 second(s) with 500 MILLISECONDS interval)\nBuild info: version: '3.4.0', revision: 'unknown', time: 'unknown'\nSystem info: host: 'DESKTOP-OV84OKC', ip: '192.168.1.39', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'\nDriver info: com.epam.elena_bolotova.mentoring.task6.pageobject.driver.DriverDecorator",
+      "time" : {
+        "start" : 1504440126366,
+        "stop" : 1504440153723,
+        "duration" : 27357
+      }
+    }, {
+      "uid" : "1211b9c6ee166212",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504438712161,
+        "stop" : 1504438768065,
+        "duration" : 55904
+      }
+    }, {
+      "uid" : "bd8c29566699b6c2",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for presence of any elements located by By.cssSelector: div[aria-label='Message Body'] (tried for 20 second(s) with 500 MILLISECONDS interval)\nBuild info: version: '3.4.0', revision: 'unknown', time: 'unknown'\nSystem info: host: 'DESKTOP-OV84OKC', ip: '192.168.1.39', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'\nDriver info: com.epam.elena_bolotova.mentoring.task6.pageobject.driver.DriverDecorator",
+      "time" : {
+        "start" : 1504438341346,
+        "stop" : 1504438365902,
+        "duration" : 24556
+      }
+    }, {
+      "uid" : "23c96d8894d532a8",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for presence of any elements located by By.cssSelector: div[aria-label='Message Body'] (tried for 20 second(s) with 500 MILLISECONDS interval)\nBuild info: version: '3.4.0', revision: 'unknown', time: 'unknown'\nSystem info: host: 'DESKTOP-OV84OKC', ip: '192.168.1.39', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'\nDriver info: com.epam.elena_bolotova.mentoring.task6.pageobject.driver.DriverDecorator",
+      "time" : {
+        "start" : 1504438279053,
+        "stop" : 1504438303799,
+        "duration" : 24746
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fd23abdfa5b75d74.json",
+  "statusDetailsSafe" : {
+    "flaky" : true
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ "elena_bolotova@epam.com", "Test email", "This is my test email for hometask #5." ]
+}

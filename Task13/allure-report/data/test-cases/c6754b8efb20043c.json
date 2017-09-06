@@ -1,0 +1,119 @@
+{
+  "uid" : "c6754b8efb20043c",
+  "name" : "Create and delete draft message",
+  "fullName" : "com.epam.elena_bolotova.mentoring.task6.pageobject.DeleteDraftTest.deleteDraftTest",
+  "historyId" : "5306b377d1c7f1991b09189179b0f7e6",
+  "time" : {
+    "start" : 1504451127009,
+    "stop" : 1504451133734,
+    "duration" : 6725
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ {
+    "name" : "Start browser",
+    "time" : {
+      "start" : 1504451116473,
+      "stop" : 1504451120634,
+      "duration" : 4161
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "Check test result",
+    "time" : {
+      "start" : 1504451133739,
+      "stop" : 1504451133739,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "Close browser",
+    "time" : {
+      "start" : 1504451133750,
+      "stop" : 1504451134549,
+      "duration" : 799
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.epam.elena_bolotova.mentoring.task6.pageobject.DeleteDraftTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.epam.elena_bolotova.mentoring.task6.pageobject.DeleteDraftTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "deleteDraftTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "FullSuitePO"
+  }, {
+    "name" : "suite",
+    "value" : "DeleteDraftTest"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.epam.elena_bolotova.mentoring.task6.pageobject.DeleteDraftTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OV84OKC"
+  }, {
+    "name" : "thread",
+    "value" : "13004@DESKTOP-OV84OKC.main(1)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "elena_bolotova@epam.com"
+  }, {
+    "name" : "arg1",
+    "value" : "Test email"
+  }, {
+    "name" : "arg2",
+    "value" : "This is my test email for hometask #5."
+  }, {
+    "name" : "password",
+    "value" : "Mentoring"
+  }, {
+    "name" : "username",
+    "value" : "tuser5500@gmail.com"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "source" : "c6754b8efb20043c.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ "elena_bolotova@epam.com", "Test email", "This is my test email for hometask #5.", "Mentoring", "tuser5500@gmail.com" ]
+}

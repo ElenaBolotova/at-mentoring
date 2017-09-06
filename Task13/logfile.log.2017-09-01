@@ -1,0 +1,234 @@
+19:47:48 INFO  BaseTest.setUp - create driver
+19:47:58 INFO  BaseTest.tearDown - close driver
+19:56:33 INFO  MyLogger.info - create driver
+19:56:43 INFO  MyLogger.info - close driver
+20:32:52 INFO  MyLogger.info - create driver
+20:32:52 INFO  MyLogger.info - Opening http://gmail.com
+20:32:54 INFO  MyLogger.info - Filling username field
+20:32:55 INFO  MyLogger.info - Pressing Next button
+20:32:56 INFO  MyLogger.info - Filling password field
+20:33:01 INFO  MyLogger.info - Pressing Next button
+20:33:01 INFO  MyLogger.info - Username and password fields are filled
+20:33:01 ERROR MyLogger.error - User has incorrect login
+20:33:01 INFO  MyLogger.info - Getting error message
+20:33:01 INFO  MyLogger.info - User was not logged in with incorrect login
+20:33:01 INFO  MyLogger.info - close driver
+20:34:24 INFO  MyLogger.info - create driver
+20:34:24 INFO  MyLogger.info - Opening http://gmail.com
+20:34:27 INFO  MyLogger.info - open Login page
+20:34:27 INFO  MyLogger.info - Filling username field
+20:34:27 INFO  MyLogger.info - Pressing Next button
+20:34:28 INFO  MyLogger.info - Filling password field
+20:34:31 INFO  MyLogger.info - Pressing Next button
+20:34:31 INFO  MyLogger.info - Username and password fields are filled
+20:34:31 INFO  MyLogger.info - Try to log in astuser5500@gmail.com/Mentoring
+20:34:32 INFO  MyLogger.info - Creating new draft message
+20:34:34 INFO  MyLogger.info - To field filled with data
+20:34:34 INFO  MyLogger.info - Subject field filled with data
+20:34:35 INFO  MyLogger.info - Body field filled with data
+20:34:35 INFO  MyLogger.info - Draft successfully filled
+20:34:36 INFO  MyLogger.info - Save button is found
+20:34:36 INFO  MyLogger.info - Draft saved
+20:34:36 INFO  MyLogger.info - Opening Drafts folder
+20:34:37 INFO  MyLogger.info - Opening draft message by pressing keyboard buttons
+20:34:37 INFO  MyLogger.info - Reading Body field value
+20:34:38 INFO  MyLogger.info - Draft was successfully created and opened by pressing keyboard buttons
+20:34:38 INFO  MyLogger.info - close driver
+20:40:03 INFO  MyLogger.info - creating driver
+20:40:03 INFO  MyLogger.info - Opening http://gmail.com
+20:40:05 INFO  MyLogger.info - Trying to log in as tuser5500@gmail.com/111
+20:40:05 INFO  MyLogger.info - Filling username field
+20:40:06 INFO  MyLogger.info - Pressing Next button
+20:40:07 INFO  MyLogger.info - Filling password field
+20:40:12 INFO  MyLogger.info - Pressing Next button
+20:40:12 INFO  MyLogger.info - Username and password fields are filled
+20:40:12 ERROR MyLogger.error - User has incorrect login
+20:40:12 INFO  MyLogger.info - Getting error message
+20:40:12 INFO  MyLogger.info - User was not logged in with incorrect login
+20:40:13 INFO  MyLogger.info - closing driver
+20:42:14 INFO  MyLogger.info - creating driver
+20:42:14 INFO  MyLogger.info - Opening http://gmail.com
+20:42:16 INFO  MyLogger.info - opening Login page
+20:42:16 INFO  MyLogger.info - Trying to log in as tuser5500@gmail.com/Mentoring
+20:42:17 INFO  MyLogger.info - Filling username field
+20:42:17 INFO  MyLogger.info - Pressing Next button
+20:42:18 INFO  MyLogger.info - Filling password field
+20:42:20 INFO  MyLogger.info - Pressing Next button
+20:42:20 INFO  MyLogger.info - Username and password fields are filled
+20:42:20 INFO  MyLogger.info - Successfully logged in as tuser5500@gmail.com/Mentoring
+20:42:22 INFO  MyLogger.info - Creating new draft message
+20:42:23 INFO  MyLogger.info - To field filled with data
+20:42:24 INFO  MyLogger.info - Subject field filled with data
+20:42:24 INFO  MyLogger.info - Body field filled with data
+20:42:24 INFO  MyLogger.info - Draft successfully filled
+20:42:25 INFO  MyLogger.info - Save button is found
+20:42:25 INFO  MyLogger.info - Draft saved
+20:42:25 INFO  MyLogger.info - Opening Drafts folder
+20:42:26 INFO  MyLogger.info - Opening draft message by pressing keyboard buttons
+20:42:27 INFO  MyLogger.info - Reading Body field value
+20:42:27 INFO  MyLogger.info - Draft was successfully created and opened by pressing keyboard buttons
+20:42:28 INFO  MyLogger.info - closing driver
+20:44:34 INFO  MyLogger.info - creating driver
+20:44:34 INFO  MyLogger.info - Opening http://gmail.com
+20:44:36 INFO  MyLogger.info - Trying to log in as tuser5500@gmail.com/Mentoring
+20:44:36 INFO  MyLogger.info - Filling username field
+20:44:37 INFO  MyLogger.info - Pressing Next button
+20:44:38 INFO  MyLogger.info - Filling password field
+20:44:40 INFO  MyLogger.info - Pressing Next button
+20:44:40 INFO  MyLogger.info - Username and password fields are filled
+20:44:40 INFO  MyLogger.info - Successfully logged in as tuser5500@gmail.com/Mentoring
+20:44:41 INFO  MyLogger.info - Creating new draft message
+20:44:43 INFO  MyLogger.info - To field filled with data
+20:44:43 INFO  MyLogger.info - Subject field filled with data
+20:44:43 INFO  MyLogger.info - Body field filled with data
+20:44:44 INFO  MyLogger.info - Draft successfully filled
+20:44:44 INFO  MyLogger.info - Draft was deleted
+20:44:44 INFO  MyLogger.info - Checking message draft is discard
+20:44:44 INFO  MyLogger.info - Draft was successfully created, checked and deleted
+20:44:45 INFO  MyLogger.info - closing driver
+20:46:16 INFO  MyLogger.info - creating driver
+20:46:16 INFO  MyLogger.info - Opening http://gmail.com
+20:46:18 INFO  MyLogger.info - Trying to log in as tuser5500@gmail.com/Mentoring
+20:46:19 INFO  MyLogger.info - Filling username field
+20:46:19 INFO  MyLogger.info - Pressing Next button
+20:46:20 INFO  MyLogger.info - Filling password field
+20:46:22 INFO  MyLogger.info - Pressing Next button
+20:46:22 INFO  MyLogger.info - Username and password fields are filled
+20:46:22 INFO  MyLogger.info - Successfully logged in as tuser5500@gmail.com/Mentoring
+20:46:24 INFO  MyLogger.info - Creating new draft message
+20:46:25 INFO  MyLogger.info - To field filled with data
+20:46:26 INFO  MyLogger.info - Subject field filled with data
+20:46:26 INFO  MyLogger.info - Body field filled with data
+20:46:27 INFO  MyLogger.info - Draft successfully filled
+20:46:27 INFO  MyLogger.info - Save button is found
+20:46:27 INFO  MyLogger.info - Draft saved
+20:46:28 INFO  MyLogger.info - closing driver
+20:48:36 INFO  MyLogger.info - creating driver
+20:48:36 INFO  MyLogger.info - Opening http://gmail.com
+20:48:38 INFO  MyLogger.info - Trying to log in as tuser5500@gmail.com/Mentoring
+20:48:38 INFO  MyLogger.info - Filling username field
+20:48:39 INFO  MyLogger.info - Pressing Next button
+20:48:40 INFO  MyLogger.info - Filling password field
+20:48:42 INFO  MyLogger.info - Pressing Next button
+20:48:42 INFO  MyLogger.info - Username and password fields are filled
+20:48:42 INFO  MyLogger.info - Successfully logged in as tuser5500@gmail.com/Mentoring
+20:48:44 INFO  MyLogger.info - Creating new draft message
+20:48:45 INFO  MyLogger.info - To field filled with data
+20:48:45 INFO  MyLogger.info - Subject field filled with data
+20:48:45 INFO  MyLogger.info - Body field filled with data
+20:48:46 INFO  MyLogger.info - Draft successfully filled
+20:48:46 INFO  MyLogger.info - Save button is found
+20:48:46 INFO  MyLogger.info - Draft saved
+20:48:46 INFO  MyLogger.info - Opening Drafts folder
+20:48:48 INFO  MyLogger.info - Draft message was successfully drag and dropped to Inbox folder
+20:48:48 INFO  MyLogger.info - Checking alert appearance
+20:48:49 INFO  MyLogger.info - Checking if By.xpath: //div[contains(@role, 'alert')]//span[contains(text(),'The message has been moved to the Inbox.')]
+exists
+20:48:49 INFO  MyLogger.info - Draft was successfully created and moved to Inbox
+20:48:49 INFO  MyLogger.info - closing driver
+20:50:40 INFO  MyLogger.info - creating driver
+20:50:40 INFO  MyLogger.info - Opening http://gmail.com
+20:50:42 INFO  MyLogger.info - Trying to log in as tuser5500@gmail.com/Mentoring
+20:50:42 INFO  MyLogger.info - Filling username field
+20:50:43 INFO  MyLogger.info - Pressing Next button
+20:50:44 INFO  MyLogger.info - Filling password field
+20:50:46 INFO  MyLogger.info - Pressing Next button
+20:50:46 INFO  MyLogger.info - Username and password fields are filled
+20:50:46 INFO  MyLogger.info - Successfully logged in as tuser5500@gmail.com/Mentoring
+20:50:48 INFO  MyLogger.info - Creating new draft message
+20:50:49 INFO  MyLogger.info - To field filled with data
+20:50:49 INFO  MyLogger.info - Subject field filled with data
+20:50:49 INFO  MyLogger.info - Body field filled with data
+20:50:50 INFO  MyLogger.info - Draft successfully filled
+20:50:51 INFO  MyLogger.info - Save button is found
+20:50:51 INFO  MyLogger.info - Draft saved
+20:50:51 INFO  MyLogger.info - Draft was successfully created
+20:50:52 INFO  MyLogger.info - closing driver
+20:51:32 INFO  MyLogger.info - creating driver
+20:51:33 INFO  MyLogger.info - Opening http://gmail.com
+20:51:35 INFO  MyLogger.info - Trying to log in as tuser5500@gmail.com/Mentoring
+20:51:35 INFO  MyLogger.info - Filling username field
+20:51:35 INFO  MyLogger.info - Pressing Next button
+20:51:36 INFO  MyLogger.info - Filling password field
+20:51:38 INFO  MyLogger.info - Pressing Next button
+20:51:38 INFO  MyLogger.info - Username and password fields are filled
+20:51:38 INFO  MyLogger.info - Successfully logged in as tuser5500@gmail.com/Mentoring
+20:51:40 INFO  MyLogger.info - Creating new draft message
+20:51:42 INFO  MyLogger.info - To field filled with data
+20:51:42 INFO  MyLogger.info - Subject field filled with data
+20:51:42 INFO  MyLogger.info - Body field filled with data
+20:51:43 INFO  MyLogger.info - Draft successfully filled
+20:51:43 INFO  MyLogger.info - Save button is found
+20:51:43 INFO  MyLogger.info - Draft saved
+20:51:43 INFO  MyLogger.info - Draft was successfully created
+20:51:44 INFO  MyLogger.info - Opening Drafts folder
+20:51:44 INFO  MyLogger.info - Checking draft existence
+20:51:45 INFO  MyLogger.info - Draft is in Drafts folder
+20:51:45 INFO  MyLogger.info - Opening draft message
+20:51:45 INFO  MyLogger.info - Reading To field value
+20:51:45 INFO  MyLogger.info - Reading Subject field value
+20:51:46 INFO  MyLogger.info - Reading Body field value
+20:51:46 INFO  MyLogger.info - Draft content is correct
+20:51:46 INFO  MyLogger.info - Send button is found
+20:51:46 INFO  MyLogger.info - Draft was sent
+20:52:07 INFO  MyLogger.info - closing driver
+21:10:50 INFO  MyLogger.info - creating driver
+21:10:50 INFO  MyLogger.info - Opening http://gmail.com
+21:10:52 INFO  MyLogger.info - Trying to log in as tuser5500@gmail.com/111
+21:10:53 INFO  MyLogger.info - Filling username field
+21:10:53 INFO  MyLogger.info - Pressing Next button
+21:10:54 INFO  MyLogger.info - Filling password field
+21:11:00 INFO  MyLogger.info - Pressing Next button
+21:11:00 INFO  MyLogger.info - Username and password fields are filled
+21:11:00 ERROR MyLogger.error - User has incorrect login
+21:11:00 INFO  MyLogger.info - Checking error message
+21:11:00 INFO  MyLogger.info - User was not logged in with incorrect login
+21:11:00 INFO  MyLogger.info - closing driver
+21:16:37 INFO  MyLogger.info - creating driver
+21:16:37 INFO  MyLogger.info - Opening http://gmail.com
+21:16:40 INFO  MyLogger.info - Trying to log in as tuser5500@gmail.com/111
+21:16:40 INFO  MyLogger.info - Filling username field
+21:16:41 INFO  MyLogger.info - Pressing Next button
+21:16:41 INFO  MyLogger.info - Filling password field
+21:16:47 INFO  MyLogger.info - Pressing Next button
+21:16:47 INFO  MyLogger.info - Username and password fields are filled
+21:16:47 ERROR MyLogger.error - User has incorrect login
+21:16:47 INFO  MyLogger.info - Checking error message
+21:16:47 INFO  MyLogger.info - User was not logged in with incorrect login
+21:16:47 INFO  MyLogger.info - closing driver
+21:18:20 INFO  MyLogger.info - creating driver
+21:18:20 INFO  MyLogger.info - Opening http://gmail.com
+21:18:23 INFO  MyLogger.info - Trying to log in as tuser5500@gmail.com/111
+21:18:23 INFO  MyLogger.info - Filling username field
+21:18:23 INFO  MyLogger.info - Pressing Next button
+21:18:24 INFO  MyLogger.info - Filling password field
+21:18:30 INFO  MyLogger.info - Pressing Next button
+21:18:30 INFO  MyLogger.info - Username and password fields are filled
+21:18:30 ERROR MyLogger.error - User has incorrect login
+21:18:30 INFO  MyLogger.info - Checking error message
+21:18:30 INFO  MyLogger.info - User was not logged in with incorrect login
+21:18:30 INFO  MyLogger.info - closing driver
+2017-09-01 21:19:47,498 INFO  MyLogger.info - creating driver
+2017-09-01 21:19:47,621 INFO  MyLogger.info - Opening http://gmail.com
+2017-09-01 21:19:49,657 INFO  MyLogger.info - Trying to log in as tuser5500@gmail.com/111
+2017-09-01 21:19:49,875 INFO  MyLogger.info - Filling username field
+2017-09-01 21:19:50,797 INFO  MyLogger.info - Pressing Next button
+2017-09-01 21:19:51,611 INFO  MyLogger.info - Filling password field
+2017-09-01 21:19:57,172 INFO  MyLogger.info - Pressing Next button
+2017-09-01 21:19:57,173 INFO  MyLogger.info - Username and password fields are filled
+2017-09-01 21:19:57,173 ERROR MyLogger.error - User has incorrect login
+2017-09-01 21:19:57,174 INFO  MyLogger.info - Checking error message
+2017-09-01 21:19:57,293 INFO  MyLogger.info - User was not logged in with incorrect login
+2017-09-01 21:19:57,768 INFO  MyLogger.info - closing driver
+2017-09-01 21:40:48,296 INFO  MyLogger.info - creating driver
+2017-09-01 21:40:48,408 INFO  MyLogger.info - Opening http://gmail.com
+2017-09-01 21:40:51,104 INFO  MyLogger.info - Trying to log in as tuser5500@gmail.com/111
+2017-09-01 21:40:51,309 INFO  MyLogger.info - Filling username field
+2017-09-01 21:40:52,059 INFO  MyLogger.info - Pressing Next button
+2017-09-01 21:40:52,880 INFO  MyLogger.info - Filling password field
+2017-09-01 21:40:58,393 INFO  MyLogger.info - Pressing Next button
+2017-09-01 21:40:58,394 INFO  MyLogger.info - Username and password fields are filled
+2017-09-01 21:40:58,394 ERROR MyLogger.error - User has incorrect login
+2017-09-01 21:40:58,395 INFO  MyLogger.info - Checking error message
+2017-09-01 21:40:58,532 INFO  MyLogger.info - User was not logged in with incorrect login
+2017-09-01 21:40:59,006 INFO  MyLogger.info - closing driver

@@ -1,0 +1,119 @@
+{
+  "uid" : "81b3c673ca1b3692",
+  "name" : "Login with incorrect password",
+  "fullName" : "com.epam.elena_bolotova.mentoring.task6.pageobject.IncorrectLoginTest.incorrectLoginGmailTest",
+  "historyId" : "836d0a73708bf95366f96048e9ecd71a",
+  "time" : {
+    "start" : 1504451106159,
+    "stop" : 1504451115977,
+    "duration" : 9818
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ {
+    "name" : "Start browser",
+    "time" : {
+      "start" : 1504451094878,
+      "stop" : 1504451106065,
+      "duration" : 11187
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "Check test result",
+    "time" : {
+      "start" : 1504451116097,
+      "stop" : 1504451116097,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "Close browser",
+    "time" : {
+      "start" : 1504451116112,
+      "stop" : 1504451116459,
+      "duration" : 347
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.epam.elena_bolotova.mentoring.task6.pageobject.IncorrectLoginTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.epam.elena_bolotova.mentoring.task6.pageobject.IncorrectLoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "incorrectLoginGmailTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "FullSuitePO"
+  }, {
+    "name" : "suite",
+    "value" : "IncorrectLoginTest"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.epam.elena_bolotova.mentoring.task6.pageobject.IncorrectLoginTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OV84OKC"
+  }, {
+    "name" : "thread",
+    "value" : "13004@DESKTOP-OV84OKC.main(1)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "tuser5500@gmail.com"
+  }, {
+    "name" : "arg1",
+    "value" : "111"
+  }, {
+    "name" : "arg2",
+    "value" : "Wrong password. Try again."
+  }, {
+    "name" : "password",
+    "value" : "Mentoring"
+  }, {
+    "name" : "username",
+    "value" : "tuser5500@gmail.com"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "source" : "81b3c673ca1b3692.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ "tuser5500@gmail.com", "111", "Wrong password. Try again.", "Mentoring", "tuser5500@gmail.com" ]
+}

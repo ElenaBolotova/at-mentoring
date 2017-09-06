@@ -1,0 +1,157 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "FullSuitePO",
+    "children" : [ {
+      "name" : "GmailSelectDraft",
+      "children" : [ {
+        "name" : "com.epam.elena_bolotova.mentoring.task6.pageobject.SelectDraftTest",
+        "children" : [ {
+          "name" : "Select draft message",
+          "uid" : "297ef6d486476086",
+          "parentUid" : "c2538457cddc50c6a18b44ce8a8bb714",
+          "status" : "passed",
+          "time" : {
+            "start" : 1504451531406,
+            "stop" : 1504451536257,
+            "duration" : 4851
+          },
+          "flaky" : true,
+          "parameters" : [ "elena_bolotova@epam.com", "Test email", "This is my test email for hometask #5.", "Mentoring", "tuser5500@gmail.com" ]
+        } ],
+        "uid" : "c2538457cddc50c6a18b44ce8a8bb714"
+      } ],
+      "uid" : "e3c8ace7d3be7eef0787441e62070ca9"
+    }, {
+      "name" : "DeleteDraftTest",
+      "children" : [ {
+        "name" : "com.epam.elena_bolotova.mentoring.task6.pageobject.DeleteDraftTest",
+        "children" : [ {
+          "name" : "Create and delete draft message",
+          "uid" : "680c57d877106de8",
+          "parentUid" : "a1528c6fdecc46f625175bdbdd366fcc",
+          "status" : "passed",
+          "time" : {
+            "start" : 1504451513330,
+            "stop" : 1504451517303,
+            "duration" : 3973
+          },
+          "flaky" : false,
+          "parameters" : [ "elena_bolotova@epam.com", "Test email", "This is my test email for hometask #5.", "Mentoring", "tuser5500@gmail.com" ]
+        } ],
+        "uid" : "a1528c6fdecc46f625175bdbdd366fcc"
+      } ],
+      "uid" : "fd40f2be95ef5151ce21e64248bae955"
+    }, {
+      "name" : "IncorrectLoginTest",
+      "children" : [ {
+        "name" : "com.epam.elena_bolotova.mentoring.task6.pageobject.IncorrectLoginTest",
+        "children" : [ {
+          "name" : "Login with incorrect password",
+          "uid" : "3a61b8d5b46d7ff4",
+          "parentUid" : "e10478197ba80cc15c67c6b0e870b655",
+          "status" : "passed",
+          "time" : {
+            "start" : 1504451491822,
+            "stop" : 1504451501407,
+            "duration" : 9585
+          },
+          "flaky" : false,
+          "parameters" : [ "tuser5500@gmail.com", "111", "Wrong password. Try again.", "Mentoring", "tuser5500@gmail.com" ]
+        } ],
+        "uid" : "e10478197ba80cc15c67c6b0e870b655"
+      } ],
+      "uid" : "d661454eeb7b8bd3a45a1eeaecaa2724"
+    } ],
+    "uid" : "e49ad7461cfe993d46669bffc256d677"
+  }, {
+    "name" : "Default Suite",
+    "children" : [ {
+      "name" : "task13",
+      "children" : [ {
+        "name" : "com.epam.elena_bolotova.mentoring.task6.pageobject.SaveAndSendDraftTest",
+        "children" : [ {
+          "name" : "Send draft message",
+          "uid" : "ea75961b8a91a722",
+          "parentUid" : "d07dec3a1963d6172183fe2defc85d92",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1504440536960,
+            "stop" : 1504440536960,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Check draft message in Sent Mail",
+          "uid" : "541a571470ef5fed",
+          "parentUid" : "d07dec3a1963d6172183fe2defc85d92",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1504440536965,
+            "stop" : 1504440536965,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Check draft message content",
+          "uid" : "269821144d478537",
+          "parentUid" : "d07dec3a1963d6172183fe2defc85d92",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1504440536952,
+            "stop" : 1504440536952,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Save draft message",
+          "uid" : "91c359c5693863aa",
+          "parentUid" : "d07dec3a1963d6172183fe2defc85d92",
+          "status" : "passed",
+          "time" : {
+            "start" : 1504440533114,
+            "stop" : 1504440536160,
+            "duration" : 3046
+          },
+          "flaky" : false,
+          "parameters" : [ "elena_bolotova@epam.com", "Test email", "This is my test email for hometask #5." ]
+        }, {
+          "name" : "Check draft message in Drafts",
+          "uid" : "d09d2f989e6613d6",
+          "parentUid" : "d07dec3a1963d6172183fe2defc85d92",
+          "status" : "broken",
+          "time" : {
+            "start" : 1504440536305,
+            "stop" : 1504440536698,
+            "duration" : 393
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "d07dec3a1963d6172183fe2defc85d92"
+      }, {
+        "name" : "com.epam.elena_bolotova.mentoring.task6.pageobject.SelectDraftTest",
+        "children" : [ {
+          "name" : "Select draft message",
+          "uid" : "fd23abdfa5b75d74",
+          "parentUid" : "e3ffd18aeff0756f60ab85915a6da3de",
+          "status" : "passed",
+          "time" : {
+            "start" : 1504444727846,
+            "stop" : 1504444739886,
+            "duration" : 12040
+          },
+          "flaky" : true,
+          "parameters" : [ "elena_bolotova@epam.com", "Test email", "This is my test email for hometask #5." ]
+        } ],
+        "uid" : "e3ffd18aeff0756f60ab85915a6da3de"
+      } ],
+      "uid" : "3f7db67c211884be774fc9f3df49cf0f"
+    } ],
+    "uid" : "8399274b4bb69ec8699907dd6ef7de4e"
+  } ]
+}

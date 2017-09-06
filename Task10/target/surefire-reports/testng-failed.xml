@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [FullSuiteFirefox]">
+  <parameter name="password" value="Mentoring"/>
+  <parameter name="username" value="tuser5500@gmail.com"/>
+  <test name="DraftsActions(failed)">
+    <classes>
+      <class name="com.epam.elena_bolotova.mentoring.task9.tests.cucumber_tests.DraftActionsCucumberTest">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="closeBrowser"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- com.epam.elena_bolotova.mentoring.task9.tests.cucumber_tests.DraftActionsCucumberTest -->
+      <class name="com.epam.elena_bolotova.mentoring.task9.tests.cucumber_tests.IncorrectLogInCucumberTest">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="closeBrowser"/>
+          <include name="tearDownClass"/>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- com.epam.elena_bolotova.mentoring.task9.tests.cucumber_tests.IncorrectLogInCucumberTest -->
+    </classes>
+  </test> <!-- DraftsActions(failed) -->
+</suite> <!-- Failed suite [FullSuiteFirefox] -->

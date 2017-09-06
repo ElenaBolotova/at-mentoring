@@ -1,0 +1,115 @@
+{
+  "uid" : "d09d2f989e6613d6",
+  "name" : "Check draft message in Drafts",
+  "fullName" : "com.epam.elena_bolotova.mentoring.task6.pageobject.SaveAndSendDraftTest.checkDraftInDraftsTest",
+  "historyId" : "f0a4ab1a57201da98b215f2bb8de0c7e",
+  "time" : {
+    "start" : 1504440536305,
+    "stop" : 1504440536698,
+    "duration" : 393
+  },
+  "status" : "broken",
+  "statusDetails" : {
+    "message" : "The element reference of <a class=\"J-Ke n0\"> stale: either the element is no longer attached to the DOM or the page has been refreshed\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '3.4.0', revision: 'unknown', time: 'unknown'\nSystem info: host: 'DESKTOP-OV84OKC', ip: '192.168.1.39', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{moz:profile=C:\\Users\\Elena\\AppData\\Local\\Temp\\rust_mozprofile.kwX1mhHdin3C, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=55.0.3, platformVersion=10.0, moz:processID=22076.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]\nSession ID: 2b349c39-5b47-4b26-a281-508fda33d82b",
+    "trace" : "org.openqa.selenium.StaleElementReferenceException: The element reference of <a class=\"J-Ke n0\"> stale: either the element is no longer attached to the DOM or the page has been refreshed\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '3.4.0', revision: 'unknown', time: 'unknown'\nSystem info: host: 'DESKTOP-OV84OKC', ip: '192.168.1.39', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{moz:profile=C:\\Users\\Elena\\AppData\\Local\\Temp\\rust_mozprofile.kwX1mhHdin3C, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=55.0.3, platformVersion=10.0, moz:processID=22076.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]\nSession ID: 2b349c39-5b47-4b26-a281-508fda33d82b\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:573)\r\n\tat com.epam.elena_bolotova.mentoring.task6.pageobject.driver.DriverDecorator.highlightElement(DriverDecorator.java:74)\r\n\tat com.epam.elena_bolotova.mentoring.task6.pageobject.driver.DriverDecorator.findElement(DriverDecorator.java:37)\r\n\tat com.epam.elena_bolotova.mentoring.task6.pageobject.pages.MainPage.openDraftsFolder(MainPage.java:28)\r\n\tat com.epam.elena_bolotova.mentoring.task6.pageobject.SaveAndSendDraftTest.checkDraftInDraftsTest(SaveAndSendDraftTest.java:27)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:714)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:767)\r\n\tat org.testng.TestRunner.run(TestRunner.java:617)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:334)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:240)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1123)\r\n\tat org.testng.TestNG.run(TestNG.java:1031)\r\n\tat org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)\r\n\tat org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)\r\n",
+    "flaky" : false
+  },
+  "beforeStages" : [ {
+    "name" : "Start browser",
+    "time" : {
+      "start" : 1504440511233,
+      "stop" : 1504440523156,
+      "duration" : 11923
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "Close browser",
+    "time" : {
+      "start" : 1504440536971,
+      "stop" : 1504440537480,
+      "duration" : 509
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "Check test result",
+    "time" : {
+      "start" : 1504440536704,
+      "stop" : 1504440536946,
+      "duration" : 242
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.epam.elena_bolotova.mentoring.task6.pageobject.SaveAndSendDraftTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.epam.elena_bolotova.mentoring.task6.pageobject.SaveAndSendDraftTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkDraftInDraftsTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "task13"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.epam.elena_bolotova.mentoring.task6.pageobject.SaveAndSendDraftTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OV84OKC"
+  }, {
+    "name" : "thread",
+    "value" : "244@DESKTOP-OV84OKC.main(1)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "d09d2f989e6613d6.json",
+  "statusDetailsSafe" : {
+    "message" : "The element reference of <a class=\"J-Ke n0\"> stale: either the element is no longer attached to the DOM or the page has been refreshed\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '3.4.0', revision: 'unknown', time: 'unknown'\nSystem info: host: 'DESKTOP-OV84OKC', ip: '192.168.1.39', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{moz:profile=C:\\Users\\Elena\\AppData\\Local\\Temp\\rust_mozprofile.kwX1mhHdin3C, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=55.0.3, platformVersion=10.0, moz:processID=22076.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]\nSession ID: 2b349c39-5b47-4b26-a281-508fda33d82b",
+    "trace" : "org.openqa.selenium.StaleElementReferenceException: The element reference of <a class=\"J-Ke n0\"> stale: either the element is no longer attached to the DOM or the page has been refreshed\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '3.4.0', revision: 'unknown', time: 'unknown'\nSystem info: host: 'DESKTOP-OV84OKC', ip: '192.168.1.39', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{moz:profile=C:\\Users\\Elena\\AppData\\Local\\Temp\\rust_mozprofile.kwX1mhHdin3C, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=55.0.3, platformVersion=10.0, moz:processID=22076.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]\nSession ID: 2b349c39-5b47-4b26-a281-508fda33d82b\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:573)\r\n\tat com.epam.elena_bolotova.mentoring.task6.pageobject.driver.DriverDecorator.highlightElement(DriverDecorator.java:74)\r\n\tat com.epam.elena_bolotova.mentoring.task6.pageobject.driver.DriverDecorator.findElement(DriverDecorator.java:37)\r\n\tat com.epam.elena_bolotova.mentoring.task6.pageobject.pages.MainPage.openDraftsFolder(MainPage.java:28)\r\n\tat com.epam.elena_bolotova.mentoring.task6.pageobject.SaveAndSendDraftTest.checkDraftInDraftsTest(SaveAndSendDraftTest.java:27)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:714)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:767)\r\n\tat org.testng.TestRunner.run(TestRunner.java:617)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:334)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:240)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1123)\r\n\tat org.testng.TestNG.run(TestNG.java:1031)\r\n\tat org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)\r\n\tat org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)\r\n",
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : true
+  },
+  "parameterValues" : [ ]
+}

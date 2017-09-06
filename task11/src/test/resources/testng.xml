@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TypicodeTestSuite" verbose="1" thread-count="3" parallel="tests">
+
+    <test name="checkStatusCode">
+        <parameter name="resource" value="/users"/>
+        <parameter name="header" value="content-type"/>
+        <parameter name="value" value="application/json; charset=utf-8"/>
+        <parameter name="length" value="10"/>
+        <classes>
+            <class name="com.epam.elena_bolotova.mentoring.task11.tests.TypicodeServiceTest" />
+        </classes>
+
+    </test>
+
+
+</suite>

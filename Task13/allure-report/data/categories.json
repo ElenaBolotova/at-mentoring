@@ -1,0 +1,25 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "The element reference of <a class=\"J-Ke n0\"> stale: either the element is no longer attached to the DOM or the page has been refreshed\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '3.4.0', revision: 'unknown', time: 'unknown'\nSystem info: host: 'DESKTOP-OV84OKC', ip: '192.168.1.39', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{moz:profile=C:\\Users\\Elena\\AppData\\Local\\Temp\\rust_mozprofile.kwX1mhHdin3C, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=55.0.3, platformVersion=10.0, moz:processID=22076.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]\nSession ID: 2b349c39-5b47-4b26-a281-508fda33d82b",
+      "children" : [ {
+        "name" : "Check draft message in Drafts",
+        "uid" : "d09d2f989e6613d6",
+        "parentUid" : "124a5a8051422fc2e85fdc4830ff4aec",
+        "status" : "broken",
+        "time" : {
+          "start" : 1504440536305,
+          "stop" : 1504440536698,
+          "duration" : 393
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "124a5a8051422fc2e85fdc4830ff4aec"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

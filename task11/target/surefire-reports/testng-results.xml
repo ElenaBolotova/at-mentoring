@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TypicodeTestSuite" duration-ms="1609" started-at="2017-08-28T17:21:53Z" finished-at="2017-08-28T17:21:55Z">
+    <groups>
+    </groups>
+    <test name="checkStatusCode" duration-ms="1609" started-at="2017-08-28T17:21:53Z" finished-at="2017-08-28T17:21:55Z">
+      <class name="com.epam.elena_bolotova.mentoring.task11.tests.TypicodeServiceTest">
+        <test-method status="PASS" signature="initTest()[pri:0, instance:com.epam.elena_bolotova.mentoring.task11.tests.TypicodeServiceTest@62043840]" name="initTest" is-config="true" duration-ms="308" started-at="2017-08-28T21:21:53Z" finished-at="2017-08-28T21:21:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method status="PASS" signature="checkResponseBody(java.lang.String, int)[pri:0, instance:com.epam.elena_bolotova.mentoring.task11.tests.TypicodeServiceTest@62043840]" name="checkResponseBody" duration-ms="1033" started-at="2017-08-28T21:21:54Z" finished-at="2017-08-28T21:21:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/users]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method status="PASS" signature="checkResponseHeader(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.epam.elena_bolotova.mentoring.task11.tests.TypicodeServiceTest@62043840]" name="checkResponseHeader" duration-ms="112" started-at="2017-08-28T21:21:55Z" finished-at="2017-08-28T21:21:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/users]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[content-type]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[application/json; charset=utf-8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseHeader -->
+        <test-method status="PASS" signature="checkStatusCode(java.lang.String)[pri:0, instance:com.epam.elena_bolotova.mentoring.task11.tests.TypicodeServiceTest@62043840]" name="checkStatusCode" duration-ms="147" started-at="2017-08-28T21:21:55Z" finished-at="2017-08-28T21:21:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/users]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+      </class> <!-- com.epam.elena_bolotova.mentoring.task11.tests.TypicodeServiceTest -->
+    </test> <!-- checkStatusCode -->
+  </suite> <!-- TypicodeTestSuite -->
+</testng-results>

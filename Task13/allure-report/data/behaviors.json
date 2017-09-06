@@ -1,0 +1,113 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Login with incorrect password",
+    "uid" : "3a61b8d5b46d7ff4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1504451491822,
+      "stop" : 1504451501407,
+      "duration" : 9585
+    },
+    "flaky" : false,
+    "parameters" : [ "tuser5500@gmail.com", "111", "Wrong password. Try again.", "Mentoring", "tuser5500@gmail.com" ]
+  }, {
+    "name" : "Select draft message",
+    "uid" : "fd23abdfa5b75d74",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1504444727846,
+      "stop" : 1504444739886,
+      "duration" : 12040
+    },
+    "flaky" : true,
+    "parameters" : [ "elena_bolotova@epam.com", "Test email", "This is my test email for hometask #5." ]
+  }, {
+    "name" : "Save draft message",
+    "uid" : "91c359c5693863aa",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1504440533114,
+      "stop" : 1504440536160,
+      "duration" : 3046
+    },
+    "flaky" : false,
+    "parameters" : [ "elena_bolotova@epam.com", "Test email", "This is my test email for hometask #5." ]
+  }, {
+    "name" : "Check draft message content",
+    "uid" : "269821144d478537",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1504440536952,
+      "stop" : 1504440536952,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Check draft message in Sent Mail",
+    "uid" : "541a571470ef5fed",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1504440536965,
+      "stop" : 1504440536965,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Select draft message",
+    "uid" : "297ef6d486476086",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1504451531406,
+      "stop" : 1504451536257,
+      "duration" : 4851
+    },
+    "flaky" : true,
+    "parameters" : [ "elena_bolotova@epam.com", "Test email", "This is my test email for hometask #5.", "Mentoring", "tuser5500@gmail.com" ]
+  }, {
+    "name" : "Create and delete draft message",
+    "uid" : "680c57d877106de8",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1504451513330,
+      "stop" : 1504451517303,
+      "duration" : 3973
+    },
+    "flaky" : false,
+    "parameters" : [ "elena_bolotova@epam.com", "Test email", "This is my test email for hometask #5.", "Mentoring", "tuser5500@gmail.com" ]
+  }, {
+    "name" : "Check draft message in Drafts",
+    "uid" : "d09d2f989e6613d6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1504440536305,
+      "stop" : 1504440536698,
+      "duration" : 393
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Send draft message",
+    "uid" : "ea75961b8a91a722",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1504440536960,
+      "stop" : 1504440536960,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  } ]
+}

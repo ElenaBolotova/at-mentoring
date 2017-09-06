@@ -1,0 +1,174 @@
+{
+  "9199a06e07a1bc76db1a46e9bf0a6498" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "269821144d478537",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1504440536952,
+        "stop" : 1504440536952,
+        "duration" : 0
+      }
+    } ]
+  },
+  "f0a4ab1a57201da98b215f2bb8de0c7e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d09d2f989e6613d6",
+      "status" : "broken",
+      "statusDetails" : "The element reference of <a class=\"J-Ke n0\"> stale: either the element is no longer attached to the DOM or the page has been refreshed\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '3.4.0', revision: 'unknown', time: 'unknown'\nSystem info: host: 'DESKTOP-OV84OKC', ip: '192.168.1.39', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{moz:profile=C:\\Users\\Elena\\AppData\\Local\\Temp\\rust_mozprofile.kwX1mhHdin3C, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=55.0.3, platformVersion=10.0, moz:processID=22076.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]\nSession ID: 2b349c39-5b47-4b26-a281-508fda33d82b",
+      "time" : {
+        "start" : 1504440536305,
+        "stop" : 1504440536698,
+        "duration" : 393
+      }
+    } ]
+  },
+  "77301a0a0ab3a4762ce3ad37baf5512c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "541a571470ef5fed",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1504440536965,
+        "stop" : 1504440536965,
+        "duration" : 0
+      }
+    } ]
+  },
+  "836d0a73708bf95366f96048e9ecd71a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3a61b8d5b46d7ff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504451491822,
+        "stop" : 1504451501407,
+        "duration" : 9585
+      }
+    } ]
+  },
+  "bc52992e9d3b3e570f523dc88d64266e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fd23abdfa5b75d74",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504444727846,
+        "stop" : 1504444739886,
+        "duration" : 12040
+      }
+    } ]
+  },
+  "78e5fdafc199912cc7a652ac51749034" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "91c359c5693863aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504440533114,
+        "stop" : 1504440536160,
+        "duration" : 3046
+      }
+    } ]
+  },
+  "5306b377d1c7f1991b09189179b0f7e6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "680c57d877106de8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504451513330,
+        "stop" : 1504451517303,
+        "duration" : 3973
+      }
+    } ]
+  },
+  "6929a244eca7b70eee62759f1d3e13aa" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ea75961b8a91a722",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1504440536960,
+        "stop" : 1504440536960,
+        "duration" : 0
+      }
+    } ]
+  },
+  "faa949b6be700297a49b8408bbf8b38b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "297ef6d486476086",
+      "status" : "passed",
+      "time" : {
+        "start" : 1504451531406,
+        "stop" : 1504451536257,
+        "duration" : 4851
+      }
+    } ]
+  }
+}

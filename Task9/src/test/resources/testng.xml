@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="FullSuiteFirefox" verbose="1">
+    <parameter name="username" value="tuser5500@gmail.com"/>
+    <parameter name="password" value="Mentoring"/>
+
+
+    <test name="IncorrectLogin">
+        <classes>
+            <class name="com.epam.elena_bolotova.mentoring.task9.tests.IncorrectLogInTest" />
+        </classes>
+
+    </test>
+
+    <test name="DeleteDraft">
+        <classes>
+            <class name="com.epam.elena_bolotova.mentoring.task9.tests.DeleteDraftTest" />
+        </classes>
+
+    </test>
+
+
+</suite>

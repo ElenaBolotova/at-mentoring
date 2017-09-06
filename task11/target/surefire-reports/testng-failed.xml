@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [TypicodeTestSuite]">
+  <parameter name="resource" value="/users2"/>
+  <test name="checkStatusCode(failed)">
+    <parameter name="resource" value="/users2"/>
+    <classes>
+      <class name="com.epam.elena_bolotova.mentoring.task11.tests.TypicodeServiceTest">
+        <methods>
+          <include name="initTest"/>
+          <include name="checkStatusCode" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.epam.elena_bolotova.mentoring.task11.tests.TypicodeServiceTest -->
+    </classes>
+  </test> <!-- checkStatusCode(failed) -->
+</suite> <!-- Failed suite [TypicodeTestSuite] -->

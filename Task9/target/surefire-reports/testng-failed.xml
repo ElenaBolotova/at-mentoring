@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [FullSuiteFirefox]">
+  <parameter name="password" value="Mentoring"/>
+  <parameter name="username" value="tuser5500@gmail.com"/>
+  <test name="IncorrectLogin(failed)">
+    <classes>
+      <class name="com.epam.elena_bolotova.mentoring.task9.tests.DeleteDraftTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="logIn"/>
+        </methods>
+      </class> <!-- com.epam.elena_bolotova.mentoring.task9.tests.DeleteDraftTest -->
+      <class name="com.epam.elena_bolotova.mentoring.task9.tests.IncorrectLogInTest">
+        <methods>
+          <include name="incorrectLogInGmailTest" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.epam.elena_bolotova.mentoring.task9.tests.IncorrectLogInTest -->
+    </classes>
+  </test> <!-- IncorrectLogin(failed) -->
+</suite> <!-- Failed suite [FullSuiteFirefox] -->

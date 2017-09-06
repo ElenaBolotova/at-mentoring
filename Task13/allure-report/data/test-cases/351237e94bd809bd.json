@@ -1,0 +1,119 @@
+{
+  "uid" : "351237e94bd809bd",
+  "name" : "Select draft message",
+  "fullName" : "com.epam.elena_bolotova.mentoring.task6.pageobject.SelectDraftTest.selectDraftTest",
+  "historyId" : "faa949b6be700297a49b8408bbf8b38b",
+  "time" : {
+    "start" : 1504440809182,
+    "stop" : 1504440814137,
+    "duration" : 4955
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ {
+    "name" : "Start browser",
+    "time" : {
+      "start" : 1504440798896,
+      "stop" : 1504440802236,
+      "duration" : 3340
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "Close browser",
+    "time" : {
+      "start" : 1504440814148,
+      "stop" : 1504440814597,
+      "duration" : 449
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "Check test result",
+    "time" : {
+      "start" : 1504440814142,
+      "stop" : 1504440814142,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.epam.elena_bolotova.mentoring.task6.pageobject.SelectDraftTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.epam.elena_bolotova.mentoring.task6.pageobject.SelectDraftTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "selectDraftTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "FullSuitePO"
+  }, {
+    "name" : "suite",
+    "value" : "GmailSelectDraftByKeys"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.epam.elena_bolotova.mentoring.task6.pageobject.SelectDraftTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-OV84OKC"
+  }, {
+    "name" : "thread",
+    "value" : "17744@DESKTOP-OV84OKC.main(1)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "elena_bolotova@epam.com"
+  }, {
+    "name" : "arg1",
+    "value" : "Test email"
+  }, {
+    "name" : "arg2",
+    "value" : "This is my test email for hometask #5."
+  }, {
+    "name" : "password",
+    "value" : "Mentoring"
+  }, {
+    "name" : "username",
+    "value" : "tuser5500@gmail.com"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : {
+    "tags" : [ ]
+  },
+  "source" : "351237e94bd809bd.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ "elena_bolotova@epam.com", "Test email", "This is my test email for hometask #5.", "Mentoring", "tuser5500@gmail.com" ]
+}
